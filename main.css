@@ -1,0 +1,113 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+ .flex-container {
+    display: flex; /* Флексы */
+    color: #fff; /* Белый цвет текста */
+    flex-flow: column;
+    max-height: 600px;
+    max-width: 800px;
+   }
+
+   .cont-header{
+    position: relative;
+    padding: 0 10px;
+    height: 70px;
+    border-bottom: 2px solid #8F570D;
+    background-color: #D39747;
+  }
+  .topic h2{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 0;
+  }
+ 
+  .created{
+    display: flex;
+  }
+  .created p{
+    font-family: 'Gaegu', sans-serif;
+    font-weight: 800;
+    margin: 0;
+  }
+  
+  .created p:first-child{
+    margin-right: 10px;
+  }
+  
+
+   .messages-container{
+    background-color: #F5BD73;
+    padding: 10px 0;
+    display: block;
+    overflow-y: scroll;
+    width: 796px;
+    height: 530px;
+  }
+  .message{
+    display: flex;
+    padding: 0 10px;
+  }
+  
+  .profile-block{
+    align-items: center;
+    padding-right: 5px;
+    display: flex;
+    max-width: 150px;
+  }
+  .profile-pic{
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #8F570D;
+    background-color: #B57826;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  .date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*font-family: 'Maven Pro', sans-serif;*/
+   
+  }
+  /* блок собщений*/
+  .message-text{
+    padding: 5px;
+    border: 2px solid #8F570D;
+    border-radius: 12px;
+    /*font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;*/
+    background-color: #B57826;
+  }
+  .message-block{
+    width: 100%;
+    padding: 25px 0;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #8F570D;
+  }
+  .member-name{
+    align-self: flex-start;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: #B57826;
+    font-weight: 500;
+  }
+
+
+
+  
+    
